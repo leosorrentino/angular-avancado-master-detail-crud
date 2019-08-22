@@ -12,4 +12,9 @@ export class CategoryListComponent implements OnInit {
   ngOnInit() {
   }
 
+  public ExcluirCategorias()
+  {
+    alert("Excluindo categorias");
+  }
+
 }
