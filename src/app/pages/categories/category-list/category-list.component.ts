@@ -31,9 +31,6 @@ export class CategoryListComponent implements OnInit {
       () => alert("Erro ao tentar excluir!")
       )      
     }
-    console.log(category.id);
-    console.log(category);
-    console.log(this.categories);
   }
 
 }
