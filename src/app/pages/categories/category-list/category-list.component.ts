@@ -32,6 +32,8 @@ export class CategoryListComponent implements OnInit {
       )      
     }
     console.log(category.id);
+    console.log(category);
+    console.log(this.categories);
   }
 
 }
