@@ -3,7 +3,7 @@ import { Category } from '../../categories/shared/category.model';
 export class Entry{
     constructor(
         public id?: number,
-        public nome?: string,
+        public name?: string,
         public description?: string,
         public type?: string,
         public amount?: string,        
@@ -18,8 +18,8 @@ export class Entry{
         renevue: 'Receita'
     };
 
-    //get paidText(): string{
-       //return this.paid ? 'Pago' : 'Pendente';
+    get paidText(): string{
+        return this.paid ? 'Pago' : 'Pendente';
        
-    //}
+    }
 }
