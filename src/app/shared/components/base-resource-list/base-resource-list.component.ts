@@ -17,7 +17,7 @@ export abstract class BaseResourceListComponent<T extends BaseResourceModel> imp
     )
   }
 
-  deleteResource(resource: T){
+  deleteResources(resource: T){
     const mustDelete = confirm("Deseja realemente deletar essa categoria?");
 
     if(mustDelete) {
